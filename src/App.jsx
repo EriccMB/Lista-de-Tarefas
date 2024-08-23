@@ -10,24 +10,7 @@ function App() {
   const [filter, setFilter] = useState("All")
   const [sortBy, setSortBy] = useState("Asc")
   const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      text: "Criar adasda",
-      category: "trabalho",
-      isCompleted: false
-    },
-    {
-      id: 2,
-      text: "Crisdsdsar adasda",
-      category: "trabalho",
-      isCompleted: false
-    },
-    {
-      id: 3,
-      text: "Crasdsdaiar sdasd",
-      category: "trabalho",
-      isCompleted: false
-    }
+    
   ])
 
   const addTask = (text, category) => {
